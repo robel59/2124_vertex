@@ -18,5 +18,5 @@ subprocess.run([
     "-H", "X-GitHub-Api-Version: 2022-11-28",
     f"/repos/robel59/{repo_name}/pages",
     "-f", "source[branch]=master",
-    "-f", "source[path]=/root"
+    "-f", "source[path]=/"
 ], check=True)
